@@ -18,19 +18,19 @@ const Search = () => {
     key: 'selection',
   };
 
-  // const handleSelect = (ranges) => {
-  //   // setStartDate(ranges.selection.startDate);
-  //   // setEndDate(ranges.selection.endDate);
+  const handleSelect = (ranges) => {
+    setStartDate(ranges.selection.startDate);
+    setEndDate(ranges.selection.endDate);
 
-  //   console.log(ranges)
-  // }
+    console.log(ranges.selection.startDate)
+    console.log(ranges.selection.endDate)
+  }
 
   return (
     <div className='search'>
       <DateRangePicker
         ranges={[selectionRange]}
-        onChange={this.handleSelect}
-        onClick={this.handleSelect}
+        onChange={handleSelect}
       />
     </div>
   )
