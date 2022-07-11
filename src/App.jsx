@@ -1,9 +1,14 @@
 import './App.css';
+import Home from './Home';
+import Header from './Header';
+
 
 const App = () => {
   return (
     <div className="app">
-      <h1>Hello Ankush</h1>
+      <Header />
+      <Home />
+
     </div>
   );
 }
