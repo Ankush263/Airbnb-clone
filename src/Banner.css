@@ -26,15 +26,16 @@
   color: #ff7779 !important;
 }
 
-.banner__info > Button {
+.banner__info > button {
     background-color: #ff7779;
     color: white;
     text-transform: inherit;
     margin-top: 20px;
     font-weight: 600;
+    /* margin-bottom: -50px; */
 }
 
-.banner__info > Button:hover {
+.banner__info > button:hover {
     background-color: white;
     color: #ff7779;
   }
@@ -42,4 +43,8 @@
 
 .banner__info > h5 {
     margin-top: 10px;
+}
+
+.banner__info > h1 {
+    margin-top: -6.5vh;
 }
