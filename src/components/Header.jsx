@@ -1,9 +1,11 @@
 import React from 'react';
-import './Header.css';
+import '../styles/Header.css';
 import SearchIcon from '@mui/icons-material/Search';
 import LanguageIcon from '@mui/icons-material/Language';
 import ExpandMoreIcon from '@mui/icons-material/ExpandMore';
 import Avatar from '@mui/material/Avatar';
+import { Outlet } from "react-router-dom";
+
 
 const Header = () => {
 
@@ -20,6 +22,7 @@ const Header = () => {
         <ExpandMoreIcon />
         <Avatar src="/broken-image.jpg" />
       </div>
+      <Outlet />
     </div>
   )
 }

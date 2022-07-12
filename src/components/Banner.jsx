@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 import Button from '@mui/material/Button';
-import './Banner.css';
+import '../styles/Banner.css';
 import Search from './Search';
 
 const Banner = () => {
