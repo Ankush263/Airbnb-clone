@@ -11,10 +11,6 @@ import Footer from './Footer';
 const App = () => {
   return (
     <div className="app">
-      {/* <Routes>
-        <Route path='/' element={<Root />} />
-        <Route path='/search' element={<SearchPageLayout />} />
-      </Routes> */}
         <Header />
       <Routes>
           <Route path='/' element={<Home />} />
